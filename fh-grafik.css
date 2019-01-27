@@ -1,0 +1,80 @@
+body {
+    font: 75% georgia, sans-serif;
+	line-height: 0.95;
+	color: #000000;
+	background: #fff url(blossoms.jpg) no-repeat bottom right;
+  
+}
+p {
+    font: 1em Comic sans, sans-serif;
+    margin-bottom: 1.5em;
+}  
+* {
+  margin:10px;
+  padding:0;
+}
+
+#kopfbereich {
+  background-color:lightblue;
+  
+  margin-bottom: 10px;
+  
+}
+
+#inhalt {
+  background-color: lightgreen;
+  margin-left: 250px;
+  margin-right: 250px; 
+  
+  
+}
+
+#steuerung {
+  float: left;
+  width:240px;
+  background-color: yellow;
+}
+
+#spalterechts {
+  float: right;
+  width:240px;
+  background-color: orange;
+   font-size: smaller;
+   margin-bottom: 1em;
+}
+
+#fussbereich {
+  clear: both;
+  background-color:lightblue;  
+  font-size: smaller;
+}
+
+#hintergrund {
+  position:absolute;
+  width: 100em;
+  height:100em;
+  z-index:0;
+  margin-top: 0px;
+   background-color:#ff9fff; 
+}
+#box1 {
+     position: absolute;
+    z-index:2;
+    top: 450px;
+    right:320px;
+}
+
+table {
+  width:80%;
+  height:50%;
+ 
+
+
+  }
+#tbl1 {
+    position: absolute;
+    z-index: 3;
+    top:500px;
+    right:500px;
+     background:#ff9fff url(Magritte.jpg) no-repeat scroll ;
+    }
